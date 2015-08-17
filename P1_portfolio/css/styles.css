@@ -5,63 +5,61 @@
     box-sizing: border-box;
 }
 
-*{
+* {
     font-family: 'Lato', sans-serif;
 }
 
-h2{
+h2 {
     color: #BFB8AF;
 }
 
 header {
     display: flex;
-    text-shadow: 0 1px 1px #000000;  
+    text-shadow: 0 1px 1px #000000;
 }
 
 p{
-    text-shadow: 0 0px 1px #000000;   
-    margin: 10px;        
-}
+    text-shadow: 0 0px 1px #000000;
+    margin: 10px;
 
-.text-thin{
+.text-thin {
     font-weight: 100;
 }
 
 
-.text-light{
+.text-light {
     font-weight: 300;
 }
 
-.text-light{
+.text-light {
     font-weight: 300;
 }
 
-.icon{
+.icon {
     margin: 0 auto 10px;
     border: 5px solid white;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
 
-    transition-property:transform;
-    transition-duration:0.4s;
-    transition-timing-function:initial;
+    transition-property: transform;
+    transition-duration: 0.4s;
+    transition-timing-function: initial;
     /* Firefox 4 */
-    -moz-transition-property:transform;
-    -moz-transition-duration:0.4s;
-    -moz-transition-timing-function:initial;
+    -moz-transition-property: transform;
+    -moz-transition-duration: 0.4s;
+    -moz-transition-timing-function: initial;
     /* Safari and Chrome */
-    -webkit-transition-property:transform;
-    -webkit-transition-duration:0.4s;
-    -webkit-transition-timing-function:initial;
+    -webkit-transition-property: transform;
+    -webkit-transition-duration: 0.4s;
+    -webkit-transition-timing-function: initial;
     /* Opera */
-    -o-transition-property:transform;
-    -o-transition-duration:0.4s;
-    -o-transition-timing-function:initial;
+    -o-transition-property: transform;
+    -o-transition-duration: 0.4s;
+    -o-transition-timing-function: initial;
 }
 
-.icon:hover
-{
+.icon:hover {
     transform: rotate(12deg);
     -ms-transform: rotate(12deg);       /* IE 9 */
     -webkit-transform: rotate(12deg);   /* Safari and Chrome */
@@ -69,22 +67,22 @@ p{
     -moz-transform: rotate(12deg);      /* Firefox */
 }
 
-#logo{
+#logo {
     margin: 10px;
 }
 
 #headline {
     text-align: right;
-    margin-top: 10px
+    margin-top: 10px;
 }
 
 #menu {
     text-align: center;
-    color:white;
-    text-shadow: 0 2px 2px #000000;  
+    color: white;
+    text-shadow: 0 2px 2px #000000;
     font-weight: bold;
 }
 
-#mainimg{
+#mainimg {
     margin: 10px;
 }
