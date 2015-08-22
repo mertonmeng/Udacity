@@ -10,7 +10,7 @@
 }
 
 h2 {
-    color: #BFB8AF;
+    color: #bfb8af;
 }
 
 header {
@@ -18,9 +18,10 @@ header {
     text-shadow: 0 1px 1px #000000;
 }
 
-p{
+p {
     text-shadow: 0 0px 1px #000000;
     margin: 10px;
+}
 
 .text-thin {
     font-weight: 100;
